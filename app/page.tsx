@@ -3,7 +3,7 @@
 import AppShell from "@/components/app-shell/AppShell";
 import { Card } from "@/components/ui/card";
 import HelloEffect from "@/components/hello/HelloEffect";
-import UploadDropzoneCard from "@/components/upload/UploadDropzoneCard";
+// import UploadDropzoneCard from "@/components/upload/UploadDropzoneCard";
 
 export default function DocsPage() {
   return (
@@ -19,7 +19,7 @@ export default function DocsPage() {
           </Card>
           <Card className="h-40" />
           <Card className="h-40" />
-          <UploadDropzoneCard />
+          {/* <UploadDropzoneCard /> */}
         </div>
 
         <Card className="h-[520px]" />
